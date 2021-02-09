@@ -1,0 +1,50 @@
+* {
+    color: black;
+    margin: 0px;
+}
+
+/* Header section */
+
+ul {
+    list-style-type: none;
+    display: flex;
+    
+}
+li {
+    color: white;
+}
+a {
+    text-decoration: none;
+}
+.headerItem {
+    padding: 10px;
+    margin: auto;
+}
+.header {
+    background: url('images/headerImage.webp');
+}
+
+/* Main body */
+
+.mainImage {
+    width: 100%;
+    height: 550px;
+}
+
+h3 {
+    margin: auto;
+    padding: 10px;
+}
+p {
+    margin: auto;
+    padding: 10px;
+    text-align: justify;
+}
+.responsiveArea {
+    display: flex;
+}
+
+.sphoto {
+    width: 100px;
+    height: 100px;
+}

@@ -48,3 +48,44 @@ p {
     width: 100px;
     height: 100px;
 }
+
+@media(max-width:992px) {
+    .responsiveArea {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* footer design */
+
+footer {
+    background-color: rgb(141, 138, 138);
+    display: flex;
+    
+}
+
+.foot-content {
+    padding: auto;
+    margin: auto;
+}
+
+.messege {
+    position: fixed;
+    float: right;
+    width: 75px;
+    height: 50px;
+    background-color: turquoise;
+}
+.foot {
+    color: white;
+    text-align: center;
+}
+
+.social {
+    display: flex;
+    align-content: center;
+}
+
+.footImg {
+    width: 50px;
+    height: 50px;
+}
